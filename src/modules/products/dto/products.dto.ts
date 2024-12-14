@@ -1,0 +1,84 @@
+import {
+  ProductDimensions,
+  ProductImages,
+  ProductCategories,
+  MetaDataItem,
+} from '../prodcuts.interface';
+export class ProductDto {
+  readonly id: number;
+  readonly name: string;
+  readonly slug: string;
+  readonly image_url: string | null;
+  readonly permalink: string;
+  readonly date_created: string;
+  readonly date_created_gmt: string;
+  readonly date_modified: Date;
+  readonly date_modified_gmt: Date;
+  readonly type: string;
+  readonly status: string;
+  readonly featured: boolean;
+  readonly catalog_visibility: string;
+  readonly description: string;
+  readonly short_description: string;
+  readonly sku: string;
+  readonly price: string;
+  readonly regular_price: string;
+  readonly sale_price: string;
+  readonly date_on_sale_from: string;
+  readonly date_on_sale_from_gmt: string;
+  readonly date_on_sale_to: string;
+  readonly date_on_sale_to_gmt: string;
+  readonly on_sale: boolean;
+  readonly purchasable: boolean;
+  readonly total_sales: string;
+  readonly virtual: boolean;
+  readonly downloadable: boolean;
+  readonly downloads: any[];
+  readonly download_limit: string;
+  readonly download_expiry: string;
+  readonly external_url: string;
+  readonly button_text: string;
+  readonly tax_status: string;
+  readonly tax_class: string;
+  readonly manage_stock: boolean;
+  readonly stock_quantity: number;
+  readonly backorders: string;
+  readonly backorders_allowed: boolean;
+  readonly backordered: boolean;
+  readonly low_stock_amount: string;
+  readonly sold_individually: string;
+  readonly weight: string;
+  readonly dimensions: ProductDimensions[];
+  readonly images: ProductImages[];
+  readonly categories: ProductCategories[];
+  readonly shipping_required: boolean;
+  readonly shipping_taxable: boolean;
+  readonly shipping_class: string;
+  readonly shipping_class_id: number;
+  readonly reviews_allowed: boolean;
+  readonly average_rating: string;
+  readonly rating_count: number;
+  readonly upsell_ids: string[];
+  readonly cross_sell_ids: string[];
+  readonly parent_id: string;
+  readonly purchase_note: string;
+  readonly tags: string[];
+  readonly attributes: string[];
+  readonly default_attributes: string[];
+  readonly variations: string[];
+  readonly grouped_products: string[];
+  readonly menu_order: number;
+  readonly price_html: string;
+  readonly related_ids: string[];
+  readonly meta_data: MetaDataItem[];
+  readonly createdAt: Date;
+  readonly stock_status: string;
+  readonly has_options: boolean;
+  readonly post_password: string;
+  readonly composite_virtual: boolean;
+  readonly composite_layout: string;
+  readonly composite_editable_in_cart: false;
+  readonly composite_sold_individually_context: false;
+  readonly composite_shop_price_calc: string;
+  readonly updatedAt: Date;
+}

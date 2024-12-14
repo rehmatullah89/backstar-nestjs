@@ -1,0 +1,36 @@
+yarn run v1.22.19
+$ nest start --watch -H 0.0.0.0
+c[[90m12:04:37 PM[0m] Starting compilation in watch mode...
+
+[[90m12:04:42 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +19ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +57ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCartModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTasksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +0ms[39m
+Application is running on: 3002
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +16ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/batch, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/random/:count, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mCartController {/api/cart}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/cart, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/cart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/cart/:user_id, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/cart/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/cart/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 562129  - [39m12/26/2023, 12:04:43 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+error Command failed with signal "SIGKILL".
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
